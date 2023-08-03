@@ -1,0 +1,32 @@
+{
+    "LoginPage": { 
+        "url" :"https://www.saucedemo.com/",
+        "LoginUsernameBox"  :  "//*[@id='user-name']",
+        "LoginPasswordBox" :    "//*[@id='password']",
+        "LoginButton" :    "//*[@id='login-button']",
+        "LoginErrorText" :   "//*[@id='login_button_container']/div/form/div[3]/h3"
+    },
+    "StorePage": {
+        "url" : "https://www.saucedemo.com/inventory.html",
+        "HomePageHeader" :    "//*[@id='header_container']/div[2]/span",
+        "StoreItem" :    "//*[@id='item_4_title_link']"
+    },
+    "ItemPage": {
+        "url" : "https://www.saucedemo.com/inventory-item.html?id=4",
+        "StoreItemDetails" :   "//*[@id='inventory_item_container']/div/div/div[2]/div[1]",
+        "ItemDetailsAddToCartButton" :    "//*[@id='add-to-cart-sauce-labs-backpack']",
+        "ItemDetailsRemoveToCartButton" :    "//*[@id='remove-sauce-labs-backpack']"
+    },
+    "CheckoutPage": {
+        "url" : "https://www.saucedemo.com/cart.html",
+        "Cart"  :  "//*[@id='shopping_cart_container']",
+        "CartValue"  : "//*[@id='shopping_cart_container']/a/span",
+        "CheckoutButton"  :  "//*[@id='checkout']",
+        "CheckoutFnameInput" :   "//*[@id='first-name']",
+        "CheckoutLnameInput":   " //*[@id='last-name']",
+        "CheckoutPostal"  : "//*[@id='postal-code']",
+        "CheckoutContinue" :   "//*[@id='continue']",
+        "CheckoutFinish" :   "//*[@id='finish']",
+        "CheckoutBackToHome" : "//*[data-test='back-to-products']"
+    }
+}

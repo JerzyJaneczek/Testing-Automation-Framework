@@ -1,0 +1,9 @@
+{
+"username":    "standard_user",
+"invalidUsername" :  "locked_out_user" ,
+"password" :   "secret_sauce",  
+"StoreItemText" :   "Sauce Labs Backpack",
+"fname" :   "Jerzy",
+"lname"  :  "Janeczek",
+"postal" :   "000000"
+}
