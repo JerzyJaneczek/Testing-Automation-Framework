@@ -1,0 +1,31 @@
+{
+    "user" : {
+        "id": 1,
+        "username": "Sample",
+        "firstName": "Firstname",
+        "lastName": "Lastname",
+        "email": "Email",
+        "password": "Password",
+        "phone": "1234567890",
+        "userStatus": 0
+      },
+      "editUser" : {
+          "id": 1,
+          "username": "JJJaneczek",
+          "firstName": "Jerzy",
+          "lastName": "Janeczek",
+          "email": "jerzy03@gmail.com",
+          "password": "pwd123",
+          "phone": "1234567890",
+          "userStatus": 0
+        
+      },
+      "order" : {
+          "id": 1,
+          "petId": 1,
+          "quantity": 1,
+          "shipDate": "2023-08-11T06:38:36.467Z",
+          "status": "placed",
+          "complete": true
+      }
+}

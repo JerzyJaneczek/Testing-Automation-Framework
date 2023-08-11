@@ -1,0 +1,15 @@
+{
+    "baseURL" : "https://petstore.swagger.io/v2",
+        "user" : {
+            "user" : "/user",
+            "login" : "/login",
+            "logout" : "/logout",
+            "username" : "/username"
+        },
+        "store" : {
+            "store" : "/store",
+            "order" : "/order",
+            "inventory" : "/inventory"
+        }
+       
+}
